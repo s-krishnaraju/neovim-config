@@ -12,6 +12,7 @@ return {
 		},
 		exclude = {
 			filetypes = {
+				"norg",
 				"help",
 				"startify",
 				"dashboard",

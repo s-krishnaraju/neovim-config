@@ -28,4 +28,5 @@ require("lazy").setup({
 	{ require("plugins.autopairs") },
 	{ require("plugins.comments") },
 	{ require("plugins.indent-blankline") },
+	{ require("plugins.neorg") },
 })
