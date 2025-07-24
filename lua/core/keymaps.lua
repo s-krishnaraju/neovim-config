@@ -47,7 +47,7 @@ vim.keymap.set("n", "<leader>se", "<C-w>=", opts) -- make split windows equal wi
 vim.keymap.set("n", "<leader>x", ":close<CR>", opts) -- close current split window
 
 -- Navigate between splits
-vim.keymap.set("n", "<S-k>", ":wincmd k<CR>", opts)
+--vim.keymap.set("n", "<S-k>", ":wincmd k<CR>", opts)
 vim.keymap.set("n", "<S-j>", ":wincmd j<CR>", opts)
 vim.keymap.set("n", "<S-h>", ":wincmd h<CR>", opts)
 vim.keymap.set("n", "<S-l>", ":wincmd l<CR>", opts)

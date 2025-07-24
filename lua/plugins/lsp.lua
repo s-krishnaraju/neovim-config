@@ -72,7 +72,7 @@ return {
 					end
 
 					-- Show hover info
-					map("K", vim.lsp.buf.hover())
+					--map("<S-k>", vim.lsp.buf.hover())
 
 					-- Rename the variable under your cursor.
 					--  Most Language Servers support renaming across files, etc.
