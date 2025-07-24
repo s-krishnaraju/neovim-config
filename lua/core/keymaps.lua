@@ -78,3 +78,5 @@ vim.keymap.set("i", "<C-BS>", "<C-w>", opts)
 
 vim.keymap.set("v", "<S-j>", "<Nop>")
 vim.keymap.set("n", "<leader>a", "*")
+
+vim.keymap.set("t", "<C-j>", "<C-\\><C-n>", opts)
