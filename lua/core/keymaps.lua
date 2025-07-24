@@ -74,9 +74,12 @@ vim.keymap.set("n", "]d", vim.diagnostic.goto_next, { desc = "Go to next diagnos
 --vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { desc = "Open floating diagnostic message" })
 --vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
 
+-- Ctrl Backspace as delete
 vim.keymap.set("i", "<C-BS>", "<C-w>", opts)
 
+-- Disable shift j
 vim.keymap.set("v", "<S-j>", "<Nop>")
+-- Map leader-a as word match
 vim.keymap.set("n", "<leader>a", "*")
-
+-- Exit terminal mode
 vim.keymap.set("t", "<C-j>", "<C-\\><C-n>", opts)
